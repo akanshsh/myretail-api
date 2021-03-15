@@ -1,0 +1,42 @@
+{
+	"variables": [],
+	"info": {
+		"name": "MyRetail Products API",
+		"_postman_id": "616ea412-f7f6-f150-e434-38b3fb8069d5",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/products/604e2471eb708b92b19560c0",
+			"request": {
+				"url": "http://localhost:8080/api/products/604e2471eb708b92b19560c0",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/products/604e2471eb708b92b19560c0",
+			"request": {
+				"url": "http://localhost:8080/api/products/604e2471eb708b92b19560c0",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"604e2471eb708b92b19560c0\",\n    \"name\": \"Test (Blu-ray)(Widescreen-2)\",\n    \"currentPrice\": {\n        \"price\": 20,\n        \"currencyCode\": \"USD\"\n    }\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

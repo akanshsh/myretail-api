@@ -1,13 +1,11 @@
 package com.myretail.model;
 
-import com.sun.istack.internal.NotNull;
 import org.springframework.data.annotation.Id;
 
 public class ProductBean {
     @Id
     private String id;
 
-    @NotNull
     private String name;
 
     private PriceBean currentPrice;
